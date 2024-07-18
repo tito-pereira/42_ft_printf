@@ -6,7 +6,7 @@
 #    By: marvin <marvin@student.42.fr>              +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/05/07 16:57:08 by tibarbos          #+#    #+#              #
-#    Updated: 2024/07/18 16:20:34 by marvin           ###   ########.fr        #
+#    Updated: 2024/07/18 16:38:52 by marvin           ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -44,6 +44,7 @@ SRC = ./src/central.c \
 OBJS = ${SRC:.c=.o}
 
 $(NAME): $(OBJS)
+	cd ./libtf && make
 	$(AR) $(NAME) $(OBJS)
 
 all: $(NAME)
@@ -52,9 +53,12 @@ bonus: $(OBJS)
 	$(AR) $(NAME) $(OBJS)
 
 clean:
+	cd ./libtf && make clean
 	$(RM) $(OBJS)
 
 fclean: clean
+	cd ./libtf && make fclean
 	$(RM) $(NAME)
 
 re: fclean all
+	cd ./libtf && make re
