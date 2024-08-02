@@ -6,7 +6,7 @@
 /*   By: marvin <marvin@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/08 13:53:47 by tibarbos          #+#    #+#             */
-/*   Updated: 2024/08/02 14:42:49 by marvin           ###   ########.fr       */
+/*   Updated: 2024/08/02 19:01:15 by marvin           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -32,7 +32,7 @@ typedef struct s_params	t_pain;
 int		ft_printf(const char *s, ...);
 int		normie(va_list args, int *c, t_pain bois);
 int		see_if_spec(char c);
-int		ff_strlen(char *str); //aqui, ft_strlen
+int		ff_strlen(char *str);
 int		ft_strlen_p(char *str, int psize);
 void	ft_putstr(char *str);
 int		ft_putstr_c(char *str);
