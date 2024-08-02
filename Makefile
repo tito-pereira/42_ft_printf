@@ -6,7 +6,7 @@
 #    By: marvin <marvin@student.42.fr>              +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/05/07 16:57:08 by tibarbos          #+#    #+#              #
-#    Updated: 2024/07/18 16:44:21 by marvin           ###   ########.fr        #
+#    Updated: 2024/08/02 14:42:28 by marvin           ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -44,7 +44,7 @@ SRC = ./src/central.c \
 OBJS = ${SRC:.c=.o}
 
 $(NAME): $(OBJS)
-	cd ./libft && make
+	cd ./include/libft && make
 	$(AR) $(NAME) $(OBJS)
 
 all: $(NAME)
@@ -53,12 +53,12 @@ bonus: $(OBJS)
 	$(AR) $(NAME) $(OBJS)
 
 clean:
-	cd ./libft && make clean
+	cd ./include/libft && make clean
 	$(RM) $(OBJS)
 
 fclean: clean
-	cd ./libft && make fclean
+	cd ./include/libft && make fclean
 	$(RM) $(NAME)
 
 re: fclean all
-	cd ./libft && make re
+	cd ./include/libft && make re

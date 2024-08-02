@@ -3,14 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   pain_size.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: tibarbos <tibarbos@student.42.fr>          +#+  +:+       +#+        */
+/*   By: marvin <marvin@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/18 13:06:25 by tibarbos          #+#    #+#             */
-/*   Updated: 2023/12/26 18:04:55 by tibarbos         ###   ########.fr       */
+/*   Updated: 2024/08/02 12:27:25 by marvin           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "ft_printf.h"
+#include "../include/ft_printf.h"
 
 int	mw_atoi_pnt_1(char *str, int *j)
 {

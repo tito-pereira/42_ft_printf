@@ -3,14 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   n_flag.c                                           :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: tibarbos <tibarbos@student.42.fr>          +#+  +:+       +#+        */
+/*   By: marvin <marvin@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/17 08:46:16 by tibarbos          #+#    #+#             */
-/*   Updated: 2023/05/21 16:42:06 by tibarbos         ###   ########.fr       */
+/*   Updated: 2024/08/02 12:25:56 by marvin           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "ft_printf.h"
+#include "../include/ft_printf.h"
 
 char	ft_control_flag(char *str, int *i)
 {

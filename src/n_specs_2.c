@@ -3,14 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   n_specs_2.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: tibarbos <tibarbos@student.42.fr>          +#+  +:+       +#+        */
+/*   By: marvin <marvin@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/11 16:43:30 by tibarbos          #+#    #+#             */
-/*   Updated: 2023/05/23 16:42:28 by tibarbos         ###   ########.fr       */
+/*   Updated: 2024/08/02 12:26:16 by marvin           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "ft_printf.h"
+#include "../include/ft_printf.h"
 
 int	ft_u_spec(va_list arg, t_pain bois)
 {

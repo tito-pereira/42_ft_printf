@@ -3,14 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   ft_hx_itoa.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: tibarbos <tibarbos@student.42.fr>          +#+  +:+       +#+        */
+/*   By: marvin <marvin@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/18 19:46:58 by tibarbos          #+#    #+#             */
-/*   Updated: 2024/05/11 10:42:08 by tibarbos         ###   ########.fr       */
+/*   Updated: 2024/08/02 12:25:08 by marvin           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "ft_printf.h"
+#include "../include/ft_printf.h"
 
 unsigned int	ft_hx_set_size(unsigned int n)
 {

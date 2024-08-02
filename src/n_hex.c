@@ -3,14 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   n_hex.c                                            :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: tibarbos <tibarbos@student.42.fr>          +#+  +:+       +#+        */
+/*   By: marvin <marvin@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/14 14:06:37 by tibarbos          #+#    #+#             */
-/*   Updated: 2023/05/23 16:41:24 by tibarbos         ###   ########.fr       */
+/*   Updated: 2024/08/02 12:26:03 by marvin           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "ft_printf.h"
+#include "../include/ft_printf.h"
 
 char	check_letter_x(unsigned int i)
 {

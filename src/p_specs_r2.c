@@ -3,14 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   p_specs_r2.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: tibarbos <tibarbos@student.42.fr>          +#+  +:+       +#+        */
+/*   By: marvin <marvin@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/20 18:34:00 by tibarbos          #+#    #+#             */
-/*   Updated: 2023/05/23 18:14:41 by tibarbos         ###   ########.fr       */
+/*   Updated: 2024/08/02 12:27:02 by marvin           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "ft_printf.h"
+#include "../include/ft_printf.h"
 
 int	p_u_spec_left(unsigned int tmp, t_pain bois, char pad)
 {

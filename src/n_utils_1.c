@@ -3,14 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   n_utils_1.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: tibarbos <tibarbos@student.42.fr>          +#+  +:+       +#+        */
+/*   By: marvin <marvin@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/08 15:55:42 by tibarbos          #+#    #+#             */
-/*   Updated: 2023/05/23 17:27:34 by tibarbos         ###   ########.fr       */
+/*   Updated: 2024/08/02 12:26:22 by marvin           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "ft_printf.h"
+#include "../include/ft_printf.h"
 
 int	ff_strlen(char *str)
 {

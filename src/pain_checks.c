@@ -3,14 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   pain_checks.c                                      :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: tibarbos <tibarbos@student.42.fr>          +#+  +:+       +#+        */
+/*   By: marvin <marvin@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/23 16:45:06 by tibarbos          #+#    #+#             */
-/*   Updated: 2023/05/23 17:26:47 by tibarbos         ###   ########.fr       */
+/*   Updated: 2024/08/02 12:27:09 by marvin           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "ft_printf.h"
+#include "../include/ft_printf.h"
 
 int	ft_check_if_s(char *str, int *j)
 {

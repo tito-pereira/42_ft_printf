@@ -3,14 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   pain_exist.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: tibarbos <tibarbos@student.42.fr>          +#+  +:+       +#+        */
+/*   By: marvin <marvin@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/17 15:47:05 by tibarbos          #+#    #+#             */
-/*   Updated: 2023/12/26 18:04:15 by tibarbos         ###   ########.fr       */
+/*   Updated: 2024/08/02 12:27:17 by marvin           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "ft_printf.h"
+#include "../include/ft_printf.h"
 
 int	c_valid_min_w(char *str, int *j)
 {

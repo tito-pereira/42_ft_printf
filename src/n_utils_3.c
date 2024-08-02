@@ -3,14 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   n_utils_3.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: tibarbos <tibarbos@student.42.fr>          +#+  +:+       +#+        */
+/*   By: marvin <marvin@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/23 17:10:47 by tibarbos          #+#    #+#             */
-/*   Updated: 2023/05/23 17:36:00 by tibarbos         ###   ########.fr       */
+/*   Updated: 2024/08/02 12:26:35 by marvin           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "ft_printf.h"
+#include "../include/ft_printf.h"
 
 void	ft_putnbr_c(int n, int *c)
 {

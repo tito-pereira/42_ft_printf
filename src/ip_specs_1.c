@@ -3,14 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   ip_specs_1.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: tibarbos <tibarbos@student.42.fr>          +#+  +:+       +#+        */
+/*   By: marvin <marvin@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/20 17:20:14 by tibarbos          #+#    #+#             */
-/*   Updated: 2023/05/23 17:33:07 by tibarbos         ###   ########.fr       */
+/*   Updated: 2024/08/02 12:25:33 by marvin           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "ft_printf.h"
+#include "../include/ft_printf.h"
 
 int	ip_c_spec(va_list arg, t_pain bois)
 {

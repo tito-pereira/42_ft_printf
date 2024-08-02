@@ -3,14 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   n_specs_1.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: tibarbos <tibarbos@student.42.fr>          +#+  +:+       +#+        */
+/*   By: marvin <marvin@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/10 16:11:07 by tibarbos          #+#    #+#             */
-/*   Updated: 2023/05/23 18:21:43 by tibarbos         ###   ########.fr       */
+/*   Updated: 2024/08/02 12:26:10 by marvin           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "ft_printf.h"
+#include "../include/ft_printf.h"
 
 int	ft_c_spec(va_list arg)
 {

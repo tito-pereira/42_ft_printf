@@ -3,14 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   death_star.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: tibarbos <tibarbos@student.42.fr>          +#+  +:+       +#+        */
+/*   By: marvin <marvin@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/18 15:05:48 by tibarbos          #+#    #+#             */
-/*   Updated: 2023/12/26 18:05:16 by tibarbos         ###   ########.fr       */
+/*   Updated: 2024/08/02 12:24:44 by marvin           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "ft_printf.h"
+#include "../include/ft_printf.h"
 
 void	death_star(va_list args, char *str, int *j, int *c)
 {

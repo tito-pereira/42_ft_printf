@@ -3,14 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   p_flag.c                                           :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: tibarbos <tibarbos@student.42.fr>          +#+  +:+       +#+        */
+/*   By: marvin <marvin@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/20 15:47:43 by tibarbos          #+#    #+#             */
-/*   Updated: 2023/05/23 17:35:38 by tibarbos         ###   ########.fr       */
+/*   Updated: 2024/08/02 12:26:40 by marvin           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "ft_printf.h"
+#include "../include/ft_printf.h"
 
 char	p_check_spec(char *str, int *j)
 {

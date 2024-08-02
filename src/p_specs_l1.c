@@ -3,14 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   p_specs_l1.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: tibarbos <tibarbos@student.42.fr>          +#+  +:+       +#+        */
+/*   By: marvin <marvin@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/20 18:25:43 by tibarbos          #+#    #+#             */
-/*   Updated: 2023/05/23 18:33:34 by tibarbos         ###   ########.fr       */
+/*   Updated: 2024/08/02 12:26:45 by marvin           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "ft_printf.h"
+#include "../include/ft_printf.h"
 
 int	p_c_spec_l(int tmp, int size, char pad)
 {

@@ -3,14 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   n_utils_2.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: tibarbos <tibarbos@student.42.fr>          +#+  +:+       +#+        */
+/*   By: marvin <marvin@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/15 12:26:12 by tibarbos          #+#    #+#             */
-/*   Updated: 2023/05/23 17:38:49 by tibarbos         ###   ########.fr       */
+/*   Updated: 2024/08/02 12:26:28 by marvin           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "ft_printf.h"
+#include "../include/ft_printf.h"
 
 void	ft_putchar(char c)
 {

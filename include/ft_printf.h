@@ -6,7 +6,7 @@
 /*   By: marvin <marvin@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/08 13:53:47 by tibarbos          #+#    #+#             */
-/*   Updated: 2024/07/18 16:38:14 by marvin           ###   ########.fr       */
+/*   Updated: 2024/08/02 14:42:49 by marvin           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,7 +16,7 @@
 # include <stdlib.h>
 # include <unistd.h>
 # include <stdarg.h>
-# include "../libft/src/libft.h"
+# include "./libft/include/libft.h"
 
 struct	s_params
 {

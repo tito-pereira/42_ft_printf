@@ -3,14 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   central.c                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: tibarbos <tibarbos@student.42.fr>          +#+  +:+       +#+        */
+/*   By: marvin <marvin@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/07 16:58:36 by tibarbos          #+#    #+#             */
-/*   Updated: 2023/05/23 17:34:57 by tibarbos         ###   ########.fr       */
+/*   Updated: 2024/08/02 12:24:17 by marvin           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "ft_printf.h"
+#include "../include/ft_printf.h"
 
 int	see_if_spec(char c)
 {

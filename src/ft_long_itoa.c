@@ -3,14 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   ft_long_itoa.c                                     :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: tibarbos <tibarbos@student.42.fr>          +#+  +:+       +#+        */
+/*   By: marvin <marvin@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/18 19:46:38 by tibarbos          #+#    #+#             */
-/*   Updated: 2024/05/11 10:40:52 by tibarbos         ###   ########.fr       */
+/*   Updated: 2024/08/02 12:25:26 by marvin           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "ft_printf.h"
+#include "../include/ft_printf.h"
 
 unsigned int	ft_l_set_size(unsigned int n)
 {
